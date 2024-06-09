@@ -1,0 +1,6 @@
+@Robot_controller_api_4._3_HostAddress = http://localhost:5093
+
+GET {{Robot_controller_api_4._3_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

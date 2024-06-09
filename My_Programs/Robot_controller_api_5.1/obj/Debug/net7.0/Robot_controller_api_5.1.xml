@@ -1,0 +1,168 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Robot_controller_api_5.1</name>
+    </assembly>
+    <members>
+        <member name="M:robot_controller_api.Controllers.MapsController.GetAllMaps">
+            <summary>
+            Gets all maps.
+            </summary>
+            <returns>An enumerable of all maps</returns>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.GetSquareMapOnly">
+            <summary>
+            Gets only square maps.
+            </summary>
+            <returns>An enumerable of square maps</returns>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.GetMapById(System.Int32)">
+            <summary>
+            Gets a map by ID.
+            </summary>
+            <param name="id">The ID of the map</param>
+            <returns>The map with the specified ID</returns>
+            <response code="200">Returns the requested map</response>
+            <response code="404">If the map is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.AddMapCommand(robot_controller_api.Models.Map)">
+             <summary>
+             Adds a new map.
+             </summary>
+             <param name="newMap">The new map to add</param>
+             <returns>The newly created map</returns>
+             <remarks>
+             Sample request:
+            
+               POST /api/maps
+               {
+                   "Name": "Map 3",
+                   "Description": "Added Map!",
+                   "Columns": 10,
+                   "Rows": 10
+                }
+            
+             </remarks>
+             <response code="201">Returns the newly created map</response>
+             <response code="400">If the map is null</response>
+             <response code="409">If a map with the same name already exists.</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.UpdateMap(System.Int32,robot_controller_api.Models.Map)">
+             <summary>
+             Updates a map.
+             </summary>
+             <param name="id">The ID of the map to update</param>
+             <param name="updatedMap">The updated map</param>
+             <returns>No content</returns>
+             <remarks>
+             Sample request:
+            
+               PUT /api/maps
+               {
+                   "Name": "Updated Map 3",
+                   "Description": "Updated Map!",
+                   "Columns": 5,
+                   "Rows": 4
+                }
+            
+             </remarks>
+             <response code="200">Returns the updated map</response>
+             <response code="400">If the ID does not match the map ID or the map is null</response>
+             <response code="404">If the map is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.DeleteMap(System.Int32)">
+            <summary>
+            Deletes a map.
+            </summary>
+            <param name="id">The ID of the map to delete</param>
+            <returns>No content</returns>
+            <response code="204">If the map was successfully deleted</response>
+            <response code="404">If the map is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.MapsController.CheckCoordinate(System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Checks if a coordinate is on a map.
+            </summary>
+            <param name="id">The ID of the map</param>
+            <param name="x">The x-coordinate</param>
+            <param name="y">The y-coordinate</param>
+            <returns>True if the coordinate is on the map, otherwise false</returns>
+            <response code="200">Returns true if the coordinate is on the map, otherwise false</response>
+            <response code="400">If the coordinates are negative or out of range</response>
+            <response code="404">If the map is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.GetAllRobotCommands">
+            <summary>
+            Gets a list of all robot commands.
+            </summary>
+            <returns>A list of all robot commands</returns>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.GetMoveCommandsOnly">
+            <summary>
+            Gets a list of all move robot commands.
+            </summary>
+            <returns>A list of all move robot commands</returns>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.GetRobotCommandById(System.Int32)">
+            <summary>
+            Gets a specific robot command by ID.
+            </summary>
+            <param name="id">The ID of the robot command</param>
+            <returns>The robot command with the specified ID</returns>
+            <response code="200">Returns the requested robot command</response>
+            <response code="404">If the robot command is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.AddRobotCommand(robot_controller_api.Models.RobotCommand)">
+             <summary>
+             Creates a robot command.
+             </summary>
+             <param name="newCommand">A new robot command from the HTTP request.</param>
+             <returns>A newly created robot command</returns>
+             <remarks>
+             Sample request:
+            
+                 POST /api/robot-commands
+                 {
+                    "name": "DANCE",
+                    "isMoveCommand": true,
+                    "description": "Salsa on the Moon"
+                 }
+            
+             </remarks>
+             <response code="201">Returns the newly created robot command</response>
+             <response code="400">If the robot command is null</response>
+             <response code="409">If a robot command with the same name already exists.</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.UpdateRobotCommand(System.Int32,robot_controller_api.Models.RobotCommand)">
+             <summary>
+             Updates an existing robot command.
+             </summary>
+             <param name="id">The ID of the robot command to update</param>
+             <param name="updatedCommand">The updated robot command</param>
+             <returns>An updated robot command</returns>
+             <remarks>
+             Sample request:
+            
+                 PUT /api/robot-commands
+                 {
+                    "Name": "RUN",
+                    "Description": "Updated command!",
+                    "IsMoveCommand": true
+                 }
+            
+             </remarks>
+             <response code="200">Returns the updated robot command</response>
+             <response code="400">If the ID does not match the command ID or the command is null</response>
+             <response code="404">If the robot command is not found</response>
+        </member>
+        <member name="M:robot_controller_api.Controllers.RobotCommandsController.DeleteRobotCommand(System.Int32)">
+            <summary>
+            Deletes a robot command.
+            </summary>
+            <param name="id">The ID of the robot command to delete</param>
+            <returns>No content</returns>
+            <response code="204">If the robot command was successfully deleted</response>
+            <response code="404">If the robot command is not found</response>
+        </member>
+    </members>
+</doc>

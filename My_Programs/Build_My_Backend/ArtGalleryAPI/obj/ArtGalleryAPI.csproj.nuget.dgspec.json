@@ -1,0 +1,91 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj": {}
+  },
+  "projects": {
+    "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
+        "projectName": "ArtGalleryAPI",
+        "projectPath": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
+        "packagesPath": "/Users/neginpakroohjahromi/.nuget/packages/",
+        "outputPath": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/neginpakroohjahromi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.6, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

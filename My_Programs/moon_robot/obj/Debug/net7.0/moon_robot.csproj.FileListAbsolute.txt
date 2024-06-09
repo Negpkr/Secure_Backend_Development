@@ -1,0 +1,15 @@
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/bin/Debug/net7.0/moon_robot
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/bin/Debug/net7.0/moon_robot.deps.json
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/bin/Debug/net7.0/moon_robot.runtimeconfig.json
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/bin/Debug/net7.0/moon_robot.dll
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/bin/Debug/net7.0/moon_robot.pdb
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.csproj.AssemblyReference.cache
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.GeneratedMSBuildEditorConfig.editorconfig
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.AssemblyInfoInputs.cache
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.AssemblyInfo.cs
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.csproj.CoreCompileInputs.cache
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.dll
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/refint/moon_robot.dll
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.pdb
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/moon_robot.genruntimeconfig.cache
+/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/obj/Debug/net7.0/ref/moon_robot.dll

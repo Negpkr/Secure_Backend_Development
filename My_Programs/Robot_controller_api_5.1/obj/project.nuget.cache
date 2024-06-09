@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "TDpSkL+TD/cqidXX432nn4cd5EnAGFpLzcdQqEly3SCXV4tUZaJIpb5oARBkwN+xu0TILwcxuMsjBlnCCCrLCg==",
+  "success": true,
+  "projectFilePath": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/Robot_controller_api_5.1.csproj",
+  "expectedPackageFiles": [
+    "/Users/neginpakroohjahromi/.nuget/packages/fastmember.signed/1.5.0/fastmember.signed.1.5.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.aspnetcore.openapi/7.0.3/microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.openapi/1.4.3/microsoft.openapi.1.4.3.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/npgsql/6.0.5/npgsql.6.0.5.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/swashbuckle.aspnetcore/6.5.0/swashbuckle.aspnetcore.6.5.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.5.0/swashbuckle.aspnetcore.swagger.6.5.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.5.0/swashbuckle.aspnetcore.swaggergen.6.5.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.5.0/swashbuckle.aspnetcore.swaggerui.6.5.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.18/microsoft.netcore.app.host.osx-arm64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

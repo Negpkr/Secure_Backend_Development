@@ -1,0 +1,81 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/images/deakin-logo.png",
+      "PackagePath": "staticwebassets/images/deakin-logo.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/robot.css",
+      "PackagePath": "staticwebassets/styles/robot.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-feeling-blue.css",
+      "PackagePath": "staticwebassets/styles/theme-feeling-blue.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-flattop.css",
+      "PackagePath": "staticwebassets/styles/theme-flattop.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-material.css",
+      "PackagePath": "staticwebassets/styles/theme-material.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-monokai.css",
+      "PackagePath": "staticwebassets/styles/theme-monokai.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-muted.css",
+      "PackagePath": "staticwebassets/styles/theme-muted.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-newspaper.css",
+      "PackagePath": "staticwebassets/styles/theme-newspaper.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/styles/theme-outline.css",
+      "PackagePath": "staticwebassets/styles/theme-outline.css"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/android-chrome-192x192.png",
+      "PackagePath": "staticwebassets/swagger/android-chrome-192x192.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/android-chrome-512x512.png",
+      "PackagePath": "staticwebassets/swagger/android-chrome-512x512.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/apple-touch-icon.png",
+      "PackagePath": "staticwebassets/swagger/apple-touch-icon.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/favicon-16x16.png",
+      "PackagePath": "staticwebassets/swagger/favicon-16x16.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/favicon-32x32.png",
+      "PackagePath": "staticwebassets/swagger/favicon-32x32.png"
+    },
+    {
+      "Id": "/Users/neginpakroohjahromi/Desktop/sit331/Robot_controller_api_5.1/wwwroot/swagger/favicon.ico",
+      "PackagePath": "staticwebassets/swagger/favicon.ico"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.Robot_controller_api_5.1.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.build.Robot_controller_api_5.1.props",
+      "PackagePath": "build\\Robot_controller_api_5.1.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildMultiTargeting.Robot_controller_api_5.1.props",
+      "PackagePath": "buildMultiTargeting\\Robot_controller_api_5.1.props"
+    },
+    {
+      "Id": "obj/Debug/net7.0/staticwebassets/msbuild.buildTransitive.Robot_controller_api_5.1.props",
+      "PackagePath": "buildTransitive\\Robot_controller_api_5.1.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

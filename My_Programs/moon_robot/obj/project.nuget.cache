@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "gKUJ9hR0P6SgwUkPiYwJto/VEBNo9bsvCqriVE8KeKOm3wAupg3HmzxF5hvT55whEBAUM1wt5NP6Fn9kTQN7KQ==",
+  "success": true,
+  "projectFilePath": "/Users/neginpakroohjahromi/Desktop/sit331/moon_robot/moon_robot.csproj",
+  "expectedPackageFiles": [
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.netcore.app.ref/7.0.18/microsoft.netcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.aspnetcore.app.ref/7.0.18/microsoft.aspnetcore.app.ref.7.0.18.nupkg.sha512",
+    "/Users/neginpakroohjahromi/.nuget/packages/microsoft.netcore.app.host.osx-arm64/7.0.18/microsoft.netcore.app.host.osx-arm64.7.0.18.nupkg.sha512"
+  ],
+  "logs": []
+}

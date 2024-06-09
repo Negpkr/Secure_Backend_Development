@@ -1,0 +1,92 @@
+GetRobotCommands():
+      Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT r.id, r.createddate, r.description, r.ismovecommand, r.modifieddate, r."Name"
+      FROM robotcommand AS r
+
+GetMoveCommandsOnly():
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT r.id, r.createddate, r.description, r.ismovecommand, r.modifieddate, r."Name"
+      FROM robotcommand AS r
+      WHERE r.ismovecommand
+
+GetRobotCommandById(int id):
+      Executed DbCommand (5ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT r.id, r.createddate, r.description, r.ismovecommand, r.modifieddate, r."Name"
+      FROM robotcommand AS r
+      WHERE r.id = @__id_0
+      LIMIT 1
+
+CheckCommandNameExists(string commandName):
+      Executed DbCommand (1ms) [Parameters=[@__commandName_0='?'], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (
+          SELECT 1
+          FROM robotcommand AS r
+          WHERE r."Name" = @__commandName_0)
+
+InsertRobotCommand(RobotCommand newCommand):
+      Executed DbCommand (20ms) [Parameters=[@p0='?' (DbType = DateTime2), @p1='?', @p2='?' (DbType = Boolean), @p3='?' (DbType = DateTime2), @p4='?'], CommandType='Text', CommandTimeout='30']
+      INSERT INTO robotcommand (createddate, description, ismovecommand, modifieddate, "Name")
+      VALUES (@p0, @p1, @p2, @p3, @p4)
+      RETURNING id;
+
+UpdateRobotCommand(int id, RobotCommand updatedCommand):
+      Executed DbCommand (2ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?', @p1='?' (DbType = Boolean), @p2='?'], CommandType='Text', CommandTimeout='30']
+      UPDATE robotcommand SET description = @p0, ismovecommand = @p1, "Name" = @p2
+      WHERE id = @p3;
+
+DeleteRobotCommand(int id):
+      Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      DELETE FROM robotcommand
+      WHERE id = @p0;
+
+
+
+
+GetMaps():
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m.id, m.columns, m.createddate, m.description, m.issquare, m.modifieddate, m."Name", m.rows
+      FROM map AS m
+
+GetSquareMaps():
+      Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT m.id, m.columns, m.createddate, m.description, m.issquare, m.modifieddate, m."Name", m.rows
+      FROM map AS m
+      WHERE m.rows > 0 AND m.rows = m.columns
+
+GetMapById(int id):
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT m.id, m.columns, m.createddate, m.description, m.issquare, m.modifieddate, m."Name", m.rows
+      FROM map AS m
+      WHERE m.id = @__id_0
+      LIMIT 1
+
+CheckMapNameExists(string mapName):
+      Executed DbCommand (2ms) [Parameters=[@__mapName_0='?'], CommandType='Text', CommandTimeout='30']
+      SELECT EXISTS (
+          SELECT 1
+          FROM map AS m
+          WHERE m."Name" = @__mapName_0)
+
+InsertMap(Map newMap):
+      Executed DbCommand (2ms) [Parameters=[@p0='?' (DbType = Int32), @p1='?' (DbType = DateTime2), @p2='?', @p3='?' (DbType = DateTime2), @p4='?', @p5='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      INSERT INTO map (columns, createddate, description, modifieddate, "Name", rows)
+      VALUES (@p0, @p1, @p2, @p3, @p4, @p5)
+      RETURNING id, issquare;
+
+UpdateMap(int id, Map updatedMap):
+      Executed DbCommand (1ms) [Parameters=[@p4='?' (DbType = Int32), @p0='?' (DbType = Int32), @p1='?', @p2='?', @p3='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      UPDATE map SET columns = @p0, description = @p1, "Name" = @p2, rows = @p3
+      WHERE id = @p4
+      RETURNING issquare;
+
+DeleteMap(int id):
+      Executed DbCommand (1ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      DELETE FROM map
+      WHERE id = @p0;
+
+GetMapById(int id): ==> to check x,y by ID
+      Executed DbCommand (1ms) [Parameters=[@__id_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+      SELECT m.id, m.columns, m.createddate, m.description, m.issquare, m.modifieddate, m."Name", m.rows
+      FROM map AS m
+      WHERE m.id = @__id_0
+      LIMIT 1
