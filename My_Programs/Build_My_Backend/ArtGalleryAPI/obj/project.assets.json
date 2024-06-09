@@ -1500,11 +1500,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
+      "projectUniqueName": "/Users/neginpakroohjahromi/Desktop/sit331/My_Programs/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
       "projectName": "ArtGalleryAPI",
-      "projectPath": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
+      "projectPath": "/Users/neginpakroohjahromi/Desktop/sit331/My_Programs/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
       "packagesPath": "/Users/neginpakroohjahromi/.nuget/packages/",
-      "outputPath": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/obj/",
+      "outputPath": "/Users/neginpakroohjahromi/Desktop/sit331/My_Programs/Build_My_Backend/ArtGalleryAPI/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/neginpakroohjahromi/.nuget/NuGet/NuGet.Config"

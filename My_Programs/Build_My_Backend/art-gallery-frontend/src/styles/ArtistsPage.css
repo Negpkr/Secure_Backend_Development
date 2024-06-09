@@ -1,0 +1,22 @@
+.artists-page {
+    padding: 20px;
+  }
+  
+  .artists-page h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .artists-page ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .artists-page li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "898o8lLb8IkLIVtZawU7/JCfuBWOueSeIDE+XbOtG9rMkQYzqf3tA7FVpwl231UGjSqufEDlPSl9yY+tuJtDjA==",
+  "dgSpecHash": "EQJzS51r2QumYF7ISXh/8BsO2dRKIEuLYj9ULE3HeYFe3fiIyCFCMiK5xlbiwgcKEGLBjEHuLhkKw4KnBWZpnw==",
   "success": true,
-  "projectFilePath": "/Users/neginpakroohjahromi/Desktop/sit331/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
+  "projectFilePath": "/Users/neginpakroohjahromi/Desktop/sit331/My_Programs/Build_My_Backend/ArtGalleryAPI/ArtGalleryAPI.csproj",
   "expectedPackageFiles": [
     "/Users/neginpakroohjahromi/.nuget/packages/microsoft.aspnetcore.authentication.jwtbearer/8.0.6/microsoft.aspnetcore.authentication.jwtbearer.8.0.6.nupkg.sha512",
     "/Users/neginpakroohjahromi/.nuget/packages/microsoft.aspnetcore.openapi/8.0.4/microsoft.aspnetcore.openapi.8.0.4.nupkg.sha512",

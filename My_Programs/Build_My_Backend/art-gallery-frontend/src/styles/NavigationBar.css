@@ -1,0 +1,25 @@
+.navbar {
+    white-space: nowrap;
+    font-size: 14px;
+    background-color: #23627749;
+    color: rgb(16, 7, 83);
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .navbar p {
+    margin-top: 10px;
+  }
+  
+  .menu a {
+    color: rgb(16, 7, 83);
+    margin-right: 20px;
+    text-decoration: none;
+  }
+  
+  .menu a:hover {
+    text-decoration: underline;
+  }
+  
